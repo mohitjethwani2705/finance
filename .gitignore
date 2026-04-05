@@ -1,0 +1,5 @@
+finance-backend/node_modules
+finance-backend/data
+finance-backend/.env
+finance-frontend/node_modules
+finance-frontend/.env
