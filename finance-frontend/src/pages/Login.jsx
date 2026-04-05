@@ -79,7 +79,7 @@ export default function Login() {
                 onClick={() => { setEmail(cred.email); setPassword(cred.password); }}
                 className={`w-full text-xs font-medium border rounded-lg px-3 py-2 transition-colors ${cred.color}`}
               >
-                <span className="font-semibold">{cred.label}</span> — {cred.email}
+                <span className="font-semibold">{cred.label}</span> — {cred.email} / {cred.password}
               </button>
             ))}
           </div>
